@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: white;
+}
+
+.content-container {
+  height: calc(100vh - theme("spacing.20"));
+}
